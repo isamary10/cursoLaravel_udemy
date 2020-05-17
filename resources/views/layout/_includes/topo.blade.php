@@ -30,7 +30,7 @@
                 @endif    
             </ul>
     
-            <ul class="side-nav" id="mobile">
+            <ul class="sidenav" id="mobile-demo">
                 <li><a href="/">Home</a></li>
                 @if(Auth::guest())
                 <li><a href="{{ route('site.login') }}">Login</a></li>
